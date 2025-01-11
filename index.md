@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,7 +24,7 @@
             background: linear-gradient(135deg, rgba(255, 154, 162, 0.9), rgba(255, 196, 209, 0.9));
             color: white;
             text-align: center;
-            padding: 80px 20px;
+            padding: 100px 20px;
             position: relative;
             backdrop-filter: blur(10px);
             border-bottom: 5px solid rgba(255, 154, 162, 0.6);
@@ -106,10 +105,6 @@
             font-weight: bold;
         }
 
-        .product.full-width {
-            grid-column: span 2;
-        }
-
         @media (max-width: 768px) {
             .products {
                 grid-template-columns: 1fr;
@@ -118,10 +113,6 @@
 
             .product .details .price {
                 font-size: 1.2rem;
-            }
-
-            .product.full-width {
-                grid-column: span 1;
             }
         }
 
@@ -267,5 +258,4 @@
             window.location.href = page;
         }
     </script>
-</body>
-</html>
+
