@@ -3,6 +3,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crochet by Mirna</title>
     <style>
+        .repository-meta {
+    display: none !important;
+}
+
         /* General Styling */
         body {
             font-family: 'Poppins', sans-serif;
